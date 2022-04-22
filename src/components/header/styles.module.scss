@@ -1,0 +1,23 @@
+.header {
+  background-color: var(--color-white);
+}
+
+.nav {
+  padding: 17px 40px;
+}
+
+.navList {
+  display: flex;
+  gap: 20px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: var(--color-blue);
+  font-size: 18px;
+  transition-duration: 0.4s;
+
+  &:hover {
+    color: var(--color-dark-blue);
+  }
+}

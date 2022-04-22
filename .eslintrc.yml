@@ -24,7 +24,7 @@ rules:
   no-var:
     - error
   no-console:
-    - error
+    - off
   arrow-parens:
     - error
     - always
